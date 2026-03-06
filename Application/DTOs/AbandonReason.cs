@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 namespace SynergyApplicationFrameworkApi.Application.DTOs
 {   
+	/// <summary>
+	/// AbandonReason
+	/// </summary>
 	public partial class AbandonReason 
 	{
 	}
