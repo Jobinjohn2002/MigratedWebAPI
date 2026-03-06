@@ -1,0 +1,633 @@
+[
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.ExceptionManagerController",
+    "Method": "ManageException",
+    "RelativePath": "api/ExceptionManager/ManageException",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exceptionDto",
+        "Type": "SynergyApplicationFrameworkApi.Application.DTOs.ExceptionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "DeleteFavouriteReport",
+    "RelativePath": "api/SynergyApplicationFramework/{favouriteReportId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "favouriteReportId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SynergyApplicationFrameworkApi.Application.DTOs.OperationResponseContract",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "EditFavouriteReport",
+    "RelativePath": "api/SynergyApplicationFramework/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "favouriteReportContract",
+        "Type": "SynergyApplicationFrameworkApi.Application.DTOs.FavouriteReportContract",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SynergyApplicationFrameworkApi.Application.DTOs.OperationResponseContract",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "AddTrolleyToStoragePoint",
+    "RelativePath": "api/SynergyApplicationFramework/AddTrolleyToStoragePoint",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storagePointId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "trolleyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "stationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "AddTurnaroundToStoragePoint",
+    "RelativePath": "api/SynergyApplicationFramework/AddTurnaroundToStoragePoint",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storagePointId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "turnaroundExternalId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "stationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "CheckArchiveCMAndLKR",
+    "RelativePath": "api/SynergyApplicationFramework/checkarchivecmandlkr",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "containerInstanceId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "CreateFavouriteReport",
+    "RelativePath": "api/SynergyApplicationFramework/createfavouritereport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "favouriteReportContract",
+        "Type": "SynergyApplicationFrameworkApi.Application.DTOs.FavouriteReportContract",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "CreateLinkingForCase",
+    "RelativePath": "api/SynergyApplicationFramework/createlinkingforcase",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "DeliverDeliveryNote",
+    "RelativePath": "api/SynergyApplicationFramework/deliverdeliverynote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deliveryNoteId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "stationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "GetAllFavouriteReports",
+    "RelativePath": "api/SynergyApplicationFramework/getallfavouritereports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SynergyApplicationFrameworkApi.Application.DTOs.FavouriteReportContract, SynergyApplicationFrameworkApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "GetAllReportsForUser",
+    "RelativePath": "api/SynergyApplicationFramework/getallreportsforuser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SynergyApplicationFrameworkApi.Application.DTOs.ReportData, SynergyApplicationFrameworkApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "GetConfiguredDefectResponsibilities",
+    "RelativePath": "api/SynergyApplicationFramework/getconfigureddefectresponsibilities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "facilityId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[System.Collections.Generic.KeyValuePair\u00602[[System.Byte, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "GetCustomisableListValuesForTenancy",
+    "RelativePath": "api/SynergyApplicationFramework/getcustomisablelistvaluesfortenancy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "listTypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tenancyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "eventTypeId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SynergyApplicationFrameworkApi.Application.DTOs.ConfigurableListDataContract",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "GetFavouriteReport",
+    "RelativePath": "api/SynergyApplicationFramework/getfavouritereport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "favouriteReportId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SynergyApplicationFrameworkApi.Application.DTOs.FavouriteReportContract",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "GetItemExceptionDates",
+    "RelativePath": "api/SynergyApplicationFramework/getitemexceptiondates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "externalId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "containerInstanceId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SynergyApplicationFrameworkApi.Application.DTOs.ItemExceptionsDataContract, SynergyApplicationFrameworkApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "GetItemExceptionDatesByTurnaroundId",
+    "RelativePath": "api/SynergyApplicationFramework/getitemexceptiondatesbyturnaroundid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "externalId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "turnaroundId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SynergyApplicationFrameworkApi.Application.DTOs.ItemExceptionsDataContract, SynergyApplicationFrameworkApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "GetListOfParametersForFavouriteReport",
+    "RelativePath": "api/SynergyApplicationFramework/getlistofparametersforfavouritereport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "reportId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SynergyApplicationFrameworkApi.Application.DTOs.UsersSavedReportParameterCollection, SynergyApplicationFrameworkApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "GetReportOutputTypes",
+    "RelativePath": "api/SynergyApplicationFramework/getreportoutputtypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reportId",
+        "Type": "System.Int16",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SynergyApplicationFrameworkApi.Application.DTOs.ReportOutputTypeContract, SynergyApplicationFrameworkApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "LoadInstanceOntoTrolley",
+    "RelativePath": "api/SynergyApplicationFramework/loadinstanceontotrolley",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "instanceId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "trolleyTurnaroundId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "stationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "MarkReportAsFavourite",
+    "RelativePath": "api/SynergyApplicationFramework/markreportasfavourite",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "reportId",
+        "Type": "System.Int16",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SynergyApplicationFrameworkApi.Application.DTOs.OperationResponseContract\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController",
+    "Method": "RetrospectiveAddToWashBatch",
+    "RelativePath": "api/SynergyApplicationFramework/retrospectiveaddtowashbatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fromContainerInstance",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "toContainerInstance",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "stationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

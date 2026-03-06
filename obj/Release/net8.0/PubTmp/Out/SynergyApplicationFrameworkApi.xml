@@ -1,0 +1,640 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SynergyApplicationFrameworkApi</name>
+    </assembly>
+    <members>
+        <member name="T:SynergyApplicationFrameworkApi.Application.DTOs.BasicFaultContract">
+            <summary>
+            BasicFaultContract
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.BasicFaultContract.FaultId">
+            <summary>
+            Gets or sets FaultId
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.BasicFaultContract.FaultMessage">
+            <summary>
+            Gets or sets FaultMessage
+            </summary>
+        </member>
+        <member name="T:SynergyApplicationFrameworkApi.Application.DTOs.ConfigurableListDataContract">
+            <summary>
+            ConfigurableListDataContract
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ConfigurableListDataContract.ConfigurableListTypeId">
+            <summary>
+            Gets or sets ConfigurableListTypeId
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ConfigurableListDataContract.ConfigurableListValues">
+            <summary>
+            Gets or sets ConfigurableListValues
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ConfigurableListDataContract.AllowCustomValues">
+            <summary>
+            Gets or sets AllowCustomValues
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ConfigurableListDataContract.AllowAlphabeticalSorting">
+            <summary>
+            Gets or sets AllowAlphabeticalSorting
+            </summary>
+        </member>
+        <member name="T:SynergyApplicationFrameworkApi.Application.DTOs.ConfigurableListValueDataContract">
+            <summary>
+            ConfigurableListValueDataContract
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ConfigurableListValueDataContract.ConfigurableListValueId">
+            <summary>
+            Gets or sets ConfigurableListValueId
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ConfigurableListValueDataContract.Text">
+            <summary>
+            Gets or sets Text
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ConfigurableListValueDataContract.Order">
+            <summary>
+            Gets or sets Order
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ConfigurableListValueDataContract.IsSelected">
+            <summary>
+            Gets or sets IsSelected
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ConfigurableListValueDataContract.IsSystem">
+            <summary>
+            Gets or sets IsSystem
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ConfigurableListValueDataContract.ParentText">
+            <summary>
+            Gets or sets ParentText
+            </summary>
+        </member>
+        <member name="T:SynergyApplicationFrameworkApi.Application.DTOs.ItemExceptionDataContract">
+            <summary>
+            ItemExceptionDataContract
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ItemExceptionDataContract.ItemExceptionReason">
+            <summary>
+            Gets or sets ItemExceptionReason
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ItemExceptionDataContract.ItemExceptionQuantity">
+            <summary>
+            Gets or sets ItemExceptionQuantity
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ItemExceptionDataContract.ContainerContentId">
+            <summary>
+            Gets or sets ContainerContentId
+            </summary>
+        </member>
+        <member name="T:SynergyApplicationFrameworkApi.Application.DTOs.ItemExceptionReasonDataContract">
+            <summary>
+            ItemExceptionReasonDataContract
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ItemExceptionReasonDataContract.ItemExceptionReasonId">
+            <summary>
+            Gets or sets ItemExceptionReasonId
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ItemExceptionReasonDataContract.Text">
+            <summary>
+            Gets or sets Text
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ItemExceptionReasonDataContract.RemovedFromContainer">
+            <summary>
+            Gets or sets RemovedFromContainer
+            </summary>
+        </member>
+        <member name="T:SynergyApplicationFrameworkApi.Application.DTOs.ItemExceptionsDataContract">
+            <summary>
+            ItemExceptionsDataContract
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ItemExceptionsDataContract.CreatedISO">
+            <summary>
+            Gets or sets CreatedISO
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ItemExceptionsDataContract.ContainerContentId">
+            <summary>
+            Gets or sets ContainerContentId
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ItemExceptionsDataContract.ItemExceptionReasonId">
+            <summary>
+            Gets or sets ItemExceptionReasonId
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ItemExceptionsDataContract.Position">
+            <summary>
+            Gets or sets Position
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ItemExceptionsDataContract.Count">
+            <summary>
+            Gets or sets Count
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.OperationResponseContract.Successful">
+            <summary>
+            Gets or sets Successful
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.OperationResponseContract.Message">
+            <summary>
+            Gets or sets Message
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.OperationResponseContract.ItemCount">
+            <summary>
+            Gets or sets ItemCount
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.OperationResponseContract.PrintJobs">
+            <summary>
+            Gets or sets PrintJobs
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.OperationResponseContract`1.Data">
+            <summary>
+            Gets or sets Data
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.OperationResponseContract`1.MessageSeverity">
+            <summary>
+            Gets or sets MessageSeverity
+            </summary>
+        </member>
+        <member name="T:SynergyApplicationFrameworkApi.Application.DTOs.PrintDetailsDataContract">
+            <summary>
+            PrintDetailsDataContract
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.PrintDetailsDataContract.StringData">
+            <summary>
+            Gets or sets StringData
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.PrintDetailsDataContract.PrinterTypeId">
+            <summary>
+            Gets or sets PrinterTypeId
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.PrintDetailsDataContract.PrinterName">
+            <summary>
+            Gets or sets PrinterName
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.PrintDetailsDataContract.PrintableInstance">
+            <summary>
+            Gets or sets PrintableInstance
+            </summary>
+        </member>
+        <member name="T:SynergyApplicationFrameworkApi.Application.DTOs.PrintableInstance">
+            <summary>
+            PrintableInstance
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.PrintableInstance.CustomerName">
+            <summary>
+            Gets or sets CustomerName
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.PrintableInstance.ItemName">
+            <summary>
+            Gets or sets ItemName
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.PrintableInstance.DeliveryPointName">
+            <summary>
+            Gets or sets DeliveryPointName
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.PrintableInstance.ContainerInstancePrimaryId">
+            <summary>
+            Gets or sets ContainerInstancePrimaryId
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.DTOs.ReportOutputTypeContract.IsDefault">
+            <summary>
+            Gets or sets IsDefault
+            </summary>
+        </member>
+        <member name="T:SynergyApplicationFrameworkApi.Application.Interfaces.IPathwayExceptionHandler">
+            <summary>
+            
+            </summary>
+            <remarks></remarks>
+            <summary>
+            IPathwayExceptionHandler
+            </summary>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Application.Interfaces.IPathwayExceptionHandler.HandleException(System.Exception)">
+            <summary>
+            Handles the exception.
+            </summary>
+            <param name="exception">The exception.</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Application.Interfaces.IPathwayExceptionHandler.HandleException``1(System.Exception)">
+            <summary>
+            Handles the exception.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="exception">The exception.</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="T:SynergyApplicationFrameworkApi.Application.Interfaces.IPathwayExceptionManager">
+            <summary>
+            
+            </summary>
+            <remarks></remarks>
+            <summary>
+            IPathwayExceptionManager
+            </summary>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Application.Interfaces.IPathwayExceptionManager.ManageException(System.Exception)">
+            <summary>
+            Manages the exception.
+            </summary>
+            <param name="exception">The exception.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Application.Interfaces.IPathwayExceptionManager.ManageException``1(System.Exception)">
+            <summary>
+            Manages the exception.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="exception">The exception.</param>
+            <remarks></remarks>
+        </member>
+        <member name="T:SynergyApplicationFrameworkApi.Application.Interfaces.ISynergyExceptionHandler">
+            <summary>
+            Synergy Exception handler
+            </summary>
+            <summary>
+            ISynergyExceptionHandler
+            </summary>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Application.Interfaces.ISynergyExceptionHandler.HandleException(System.Exception)">
+            <summary>
+            Handles the exception.
+            </summary>
+            <param name="exception">The exception.</param>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Application.Interfaces.ISynergyExceptionHandler.HandleException(System.Exception,System.String)">
+            <summary>
+            Handles the exception.
+            </summary>
+            <param name="exception">The exception.</param>
+            <param name="policyName">Name of the policy.</param>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Application.Interfaces.ISynergyExceptionHandler.HandleException(System.Exception,System.String,System.Exception@)">
+            <summary>
+            Handles the exception.
+            </summary>
+            <param name="exception">The exception.</param>
+            <param name="policyName">Name of the policy.</param>
+            <param name="exceptionToThrow">The exception to throw.</param>
+        </member>
+        <member name="T:SynergyApplicationFrameworkApi.Application.Services.GlobalHandler">
+            <summary>
+            Global exception handler
+            </summary>
+            <summary>
+            GlobalHandler
+            </summary>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Application.Services.GlobalHandler.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Object"/> class.
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.Services.GlobalHandler.Instance">
+            <summary>
+            Gets the instance.
+            </summary>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Application.Services.GlobalHandler.HandleException(System.Exception)">
+            <summary>
+            Handles the exception.
+            </summary>
+            <param name="exception">The exception.</param>
+            <summary>
+            HandleException operation
+            </summary>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Application.Services.GlobalHandler.HandleException(System.Exception,System.String)">
+            <summary>
+            Handles the exception.
+            </summary>
+            <param name="exception">The exception.</param>
+            <param name="policyName">Name of the policy.</param>
+            <summary>
+            HandleException operation
+            </summary>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Application.Services.GlobalHandler.HandleException(System.Exception,System.String,System.Exception@)">
+            <summary>
+            Handles the exception.
+            </summary>
+            <param name="exception">The exception.</param>
+            <param name="policyName">Name of the policy.</param>
+            <param name="exceptionToThrow">The exception to throw.</param>
+            <summary>
+            HandleException operation
+            </summary>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Application.Services.PathwayException.#ctor(System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SynergyApplicationFrameworkApi.Application.Services.PathwayException"/> class.
+            </summary>
+            <param name="exceptionToWrap">The exception to wrap.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Application.Services.PathwayException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SynergyApplicationFrameworkApi.Application.Services.PathwayException"/> class.
+            </summary>
+            <param name="exceptionId">The exception id.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Application.Services.PathwayException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SynergyApplicationFrameworkApi.Application.Services.PathwayException"/> class.
+            </summary>
+            <param name="exceptionId">The exception id.</param>
+            <param name="exceptionToWrap">The exception to wrap.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Application.Services.PathwayException.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SynergyApplicationFrameworkApi.Application.Services.PathwayException"/> class.
+            </summary>
+            <param name="exceptionId">The exception id.</param>
+            <param name="errorMessage">The error message.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Application.Services.PathwayException.#ctor(System.String,System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SynergyApplicationFrameworkApi.Application.Services.PathwayException"/> class.
+            </summary>
+            <param name="exceptionId">The exception id.</param>
+            <param name="errorMessage">The error message.</param>
+            <param name="exceptionToWrap">The exception to wrap.</param>
+            <remarks></remarks>
+        </member>
+        <member name="T:SynergyApplicationFrameworkApi.Application.Services.SynergyException">
+            <summary>
+            Global exception manager
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.Services.SynergyException.ExceptionId">
+            <summary>
+            Gets or sets the exception id.
+            </summary>
+            <value>The exception id.</value>
+            <summary>
+            Gets or sets ExceptionId
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.Services.SynergyException.ErrorMessage">
+            <summary>
+            Gets or sets the error message.
+            </summary>
+            <value>The error message.</value>
+            <summary>
+            Gets or sets ErrorMessage
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.Services.SynergyException.DevNotes">
+            <summary>
+            Gets or sets the dev notes.
+            </summary>
+            <value>The dev notes.</value>
+            <summary>
+            Gets or sets DevNotes
+            </summary>
+        </member>
+        <member name="P:SynergyApplicationFrameworkApi.Application.Services.SynergyException.WrappedException">
+            <summary>
+            Gets or sets the wrapped exception.
+            </summary>
+            <value>The wrapped exception.</value>
+            <summary>
+            Gets or sets WrappedException
+            </summary>
+        </member>
+        <member name="T:SynergyApplicationFrameworkApi.Controllers.ExceptionManagerController">
+            <summary>
+            Controller for handling exceptions.  Mirrors functionality of the original ServiceExceptionManager.
+            </summary>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.ExceptionManagerController.#ctor(Microsoft.Extensions.Logging.ILogger{SynergyApplicationFrameworkApi.Controllers.ExceptionManagerController})">
+            <summary>
+            Initializes a new instance of the <see cref="T:SynergyApplicationFrameworkApi.Controllers.ExceptionManagerController"/> class.
+            </summary>
+            <param name="logger">The logger.</param>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.ExceptionManagerController.ManageException(SynergyApplicationFrameworkApi.Application.DTOs.ExceptionDto)">
+            <summary>
+            Manages the provided exception.  This endpoint mimics the ManageException methods of the original WCF service.
+            </summary>
+            <param name="exceptionDto">A DTO containing the exception to be managed.</param>
+            <returns>An IActionResult representing the result of the operation.  Returns 500 Internal Server Error with a BasicFaultContract on failure.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.ExceptionManagerController.ProcessException(System.Exception)">
+            <summary>
+            Processes the exception and converts it to a FaultException if necessary.
+            </summary>
+            <param name="exception">The exception to process.</param>
+        </member>
+        <member name="T:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController">
+            <summary>
+            SynergyApplicationFramework API Controller
+            Provides REST endpoints for SynergyApplicationFramework operations
+            </summary>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.#ctor(Microsoft.Extensions.Logging.ILogger{SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController})">
+            <summary>
+            Initializes a new instance of SynergyApplicationFrameworkController
+            </summary>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.LoadInstanceOntoTrolley(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Loads a specific instance onto a trolley for a given turnaround, user, and station.
+            </summary>
+            <param name="instanceId">The unique identifier of the instance to load.</param>
+            <param name="trolleyTurnaroundId">The unique identifier of the trolley turnaround event.</param>
+            <param name="userId">The unique identifier of the user performing the action.</param>
+            <param name="stationId">The unique identifier of the station where the loading is occurring.</param>
+            <returns>Returns true if the instance was successfully loaded onto the trolley; otherwise, false.  Returns an error if an exception occurs.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.RetrospectiveAddToWashBatch(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Attempts to retrospectively add a container instance to an existing wash batch.  This is typically used when a container was processed without being properly associated with a batch initially.
+            </summary>
+            <param name="fromContainerInstance">The ID of the container instance to be added to the wash batch.</param>
+            <param name="toContainerInstance">The ID of the container instance representing the wash batch to add to.</param>
+            <param name="stationId">The ID of the wash station where the wash batch was processed.</param>
+            <param name="userId">The ID of the user performing the action.</param>
+            <returns>True if the container instance was successfully added to the wash batch; otherwise, false.  Returns an error if any exception occurs.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.DeliverDeliveryNote(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Marks a delivery note as delivered at a specific station by a specific user.
+            </summary>
+            <param name="deliveryNoteId">The unique identifier of the delivery note.</param>
+            <param name="stationId">The unique identifier of the station where the delivery is being made.</param>
+            <param name="userId">The unique identifier of the user performing the delivery.</param>
+            <returns>True if the delivery note was successfully marked as delivered; otherwise, false.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.AddTurnaroundToStoragePoint(System.Int32,System.Int64,System.Int32,System.Int32)">
+            <summary>
+            Adds a turnaround to a specific storage point.
+            </summary>
+            <param name="storagePointId">The unique identifier of the storage point.</param>
+            <param name="turnaroundExternalId">The external identifier of the turnaround.</param>
+            <param name="stationId">The unique identifier of the station associated with the turnaround.</param>
+            <param name="userId">The unique identifier of the user performing the action.</param>
+            <returns>True if the turnaround was successfully added to the storage point; otherwise, false.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.AddTrolleyToStoragePoint(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Adds a trolley to a specific storage point within a station, recording the user who performed the action.
+            </summary>
+            <param name="storagePointId">The unique identifier of the storage point.</param>
+            <param name="trolleyId">The unique identifier of the trolley to be added.</param>
+            <param name="stationId">The unique identifier of the station where the storage point is located.</param>
+            <param name="userId">The unique identifier of the user performing the action.</param>
+            <returns>True if the trolley was successfully added to the storage point; otherwise, false.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.GetCustomisableListValuesForTenancy(System.Int32,System.Int32,System.Nullable{System.Int32})">
+            <summary>
+            Retrieves a list of configurable list values for a specific tenancy, optionally filtered by event type.
+            </summary>
+            <param name="listTypeId">The ID of the list type to retrieve values for.</param>
+            <param name="tenancyId">The ID of the tenancy to retrieve values for.</param>
+            <param name="eventTypeId">Optional. The ID of the event type to filter the list values by. If null, all list values for the tenancy are returned.</param>
+            <returns>A ConfigurableListDataContract containing the list of configurable list values. Returns NotFound if no values are found. Returns StatusCode 500 for internal server errors.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.GetConfiguredDefectResponsibilities(System.Int32)">
+            <summary>
+            Retrieves a list of configured defect responsibilities for a specific facility.
+            Each responsibility is represented as a key-value pair, where the key is a byte representing the responsibility ID and the value is a string representing the responsibility description.
+            </summary>
+            <param name="facilityId">The ID of the facility for which to retrieve defect responsibilities.</param>
+            <returns>A list of key-value pairs representing the configured defect responsibilities for the specified facility.  Returns an empty list if no responsibilities are configured or an error occurs.  Returns a 500 Internal Server Error if an unexpected exception occurs.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.GetAllReportsForUser(System.Int32)">
+            <summary>
+            Retrieves all reports associated with a specific user.
+            </summary>
+            <param name="userId">The unique identifier of the user.</param>
+            <returns>A list of ReportData objects representing the reports for the user. Returns an empty list if no reports are found. Returns a 500 Internal Server Error if an exception occurs.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.GetAllFavouriteReports(System.Int32)">
+            <summary>
+            Retrieves all favourite reports for a given user.
+            </summary>
+            <param name="userId">The ID of the user whose favourite reports are to be retrieved.</param>
+            <returns>A list of FavouriteReportContract objects representing the user's favourite reports. Returns an empty list if no favourite reports are found. Returns a 500 Internal Server Error if an exception occurs.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.DeleteFavouriteReport(System.Int32)">
+            <summary>
+            Deletes a favourite report based on its ID.
+            </summary>
+            <param name="favouriteReportId">The ID of the favourite report to delete.</param>
+            <returns>An OperationResponseContract indicating the success or failure of the operation.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.CreateFavouriteReport(SynergyApplicationFrameworkApi.Application.DTOs.FavouriteReportContract)">
+            <summary>
+            Creates a new favourite report in the system.
+            </summary>
+            <param name="favouriteReportContract">The data for the new favourite report.</param>
+            <returns>The ID of the newly created favourite report. Returns 500 if an error occurs.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.EditFavouriteReport(SynergyApplicationFrameworkApi.Application.DTOs.FavouriteReportContract)">
+            <summary>
+            Edits an existing favourite report.
+            </summary>
+            <param name="favouriteReportContract">The updated favourite report data.</param>
+            <returns>An OperationResponseContract indicating the success or failure of the operation.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.GetReportOutputTypes(System.Int16)">
+            <summary>
+            Retrieves a list of available output types for a given report ID.
+            </summary>
+            <param name="reportId">The ID of the report to retrieve output types for.</param>
+            <returns>A list of ReportOutputTypeContract objects representing the available output types. Returns an error if an exception occurs.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.MarkReportAsFavourite(System.Int32,System.Int16)">
+            <summary>
+            Marks a report as a favorite for a specific user.
+            </summary>
+            <param name="userId">The ID of the user.</param>
+            <param name="reportId">The ID of the report to mark as favorite.</param>
+            <returns>An OperationResponseContract containing the number of favorite reports for the user, or an error if the operation fails.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.GetFavouriteReport(System.Int32)">
+            <summary>
+            Retrieves a favourite report by its ID.
+            </summary>
+            <param name="favouriteReportId">The unique identifier of the favourite report to retrieve.</param>
+            <returns>An ActionResult containing the FavouriteReportContract if found, otherwise an error.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.GetListOfParametersForFavouriteReport(System.Int32,System.Int32)">
+            <summary>
+            Retrieves a list of saved parameter collections for a user's favorite report.
+            </summary>
+            <param name="userId">The ID of the user.</param>
+            <param name="reportId">The ID of the report.</param>
+            <returns>A list of UsersSavedReportParameterCollection objects. Returns an empty list if no parameters are found. Returns a 500 Internal Server Error if an exception occurs.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.CheckArchiveCMAndLKR(System.Int32)">
+            <summary>
+            Checks if a Container Instance with the given ID is archived in both CM (Content Management) and LKR (Likelihood of Recovery) systems.
+            </summary>
+            <param name="containerInstanceId">The ID of the Container Instance to check.</param>
+            <returns>True if the Container Instance is archived in both CM and LKR, false otherwise.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.CreateLinkingForCase">
+            <summary>
+            Creates a linking between a case and other related entities (e.g., documents, parties).  This endpoint handles the creation of these links based on provided data.
+            </summary>
+            <returns>An ActionResult indicating success or failure.  Returns 200 OK on success, or an appropriate error code (e.g., 400 Bad Request, 500 Internal Server Error) on failure.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.GetItemExceptionDates(System.String,System.Int32)">
+            <summary>
+            Retrieves a list of exception dates for a specific item within a container instance.
+            </summary>
+            <param name="externalId">The external identifier of the item.</param>
+            <param name="containerInstanceId">The identifier of the container instance.</param>
+            <returns>A list of ItemExceptionsDataContract objects representing the exception dates. Returns an empty list if no exceptions are found. Returns a 500 Internal Server Error if an error occurs.</returns>
+        </member>
+        <member name="M:SynergyApplicationFrameworkApi.Controllers.SynergyApplicationFrameworkController.GetItemExceptionDatesByTurnaroundId(System.String,System.Int32)">
+            <summary>
+            Retrieves a list of item exception dates based on the external ID and turnaround ID.
+            </summary>
+            <param name="externalId">The external identifier of the item.</param>
+            <param name="turnaroundId">The identifier of the turnaround.</param>
+            <returns>A list of ItemExceptionsDataContract objects representing the exception dates. Returns an empty list if no exceptions are found. Returns a 500 Internal Server Error if an exception occurs.</returns>
+        </member>
+    </members>
+</doc>

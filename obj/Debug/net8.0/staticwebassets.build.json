@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "P/UvrdZcxSkyU0iIFQp788WRoR3sEpihT4GdzHFmR+o=",
+  "Source": "SynergyApplicationFrameworkApi",
+  "BasePath": "_content/SynergyApplicationFrameworkApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SynergyApplicationFrameworkApi\\wwwroot",
+      "Source": "SynergyApplicationFrameworkApi",
+      "ContentRoot": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\wwwroot\\",
+      "BasePath": "_content/SynergyApplicationFrameworkApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

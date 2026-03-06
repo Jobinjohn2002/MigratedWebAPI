@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|c:\\projects\\project migration\\migratedwebapi\\synergyapplicationframeworkapi\\controllers\\synergyapplicationframeworkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|solutionrelative:controllers\\synergyapplicationframeworkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|c:\\projects\\project migration\\migratedwebapi\\synergyapplicationframeworkapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|c:\\projects\\project migration\\migratedwebapi\\synergyapplicationframeworkapi\\application\\dtos\\itemexceptiondatacontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|solutionrelative:application\\dtos\\itemexceptiondatacontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|c:\\projects\\project migration\\migratedwebapi\\synergyapplicationframeworkapi\\application\\dtos\\reportdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|solutionrelative:application\\dtos\\reportdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|c:\\projects\\project migration\\migratedwebapi\\synergyapplicationframeworkapi\\application\\dtos\\operationresponsecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|solutionrelative:application\\dtos\\operationresponsecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|c:\\projects\\project migration\\migratedwebapi\\synergyapplicationframeworkapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|c:\\projects\\project migration\\migratedwebapi\\synergyapplicationframeworkapi\\controllers\\exceptionmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|solutionrelative:controllers\\exceptionmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|c:\\projects\\project migration\\migratedwebapi\\synergyapplicationframeworkapi\\application\\dtos\\exceptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|solutionrelative:application\\dtos\\exceptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|c:\\projects\\project migration\\migratedwebapi\\synergyapplicationframeworkapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|c:\\projects\\project migration\\migratedwebapi\\synergyapplicationframeworkapi\\application\\services\\entlibwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|solutionrelative:application\\services\\entlibwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|c:\\projects\\project migration\\migratedwebapi\\synergyapplicationframeworkapi\\application\\services\\globalhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|solutionrelative:application\\services\\globalhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|c:\\projects\\project migration\\migratedwebapi\\synergyapplicationframeworkapi\\application\\services\\pathwayexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|solutionrelative:application\\services\\pathwayexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|c:\\projects\\project migration\\migratedwebapi\\synergyapplicationframeworkapi\\application\\dtos\\basicfaultcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F156CDB-7888-4C66-970D-B86FE3622A54}|SynergyApplicationFrameworkApi.csproj|solutionrelative:application\\dtos\\basicfaultcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\Interfaces\\IServiceExceptionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Interfaces\\IServiceExceptionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\Services\\ServiceExceptionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Services\\ServiceExceptionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OperationResponseContract.cs",
+              "DocumentMoniker": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\DTOs\\OperationResponseContract.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\OperationResponseContract.cs",
+              "ToolTip": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\DTOs\\OperationResponseContract.cs",
+              "RelativeToolTip": "Application\\DTOs\\OperationResponseContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T11:35:36.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SynergyApplicationFrameworkController.cs",
+              "DocumentMoniker": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Controllers\\SynergyApplicationFrameworkController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SynergyApplicationFrameworkController.cs",
+              "ToolTip": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Controllers\\SynergyApplicationFrameworkController.cs",
+              "RelativeToolTip": "Controllers\\SynergyApplicationFrameworkController.cs",
+              "ViewState": "AgIAAB0BAAAAAAAAAAAIwJgCAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T11:35:06.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReportData.cs",
+              "DocumentMoniker": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\DTOs\\ReportData.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ReportData.cs",
+              "ToolTip": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\DTOs\\ReportData.cs",
+              "RelativeToolTip": "Application\\DTOs\\ReportData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T11:30:31.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAiwFAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T06:55:32.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemExceptionDataContract.cs",
+              "DocumentMoniker": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\DTOs\\ItemExceptionDataContract.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ItemExceptionDataContract.cs",
+              "ToolTip": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\DTOs\\ItemExceptionDataContract.cs",
+              "RelativeToolTip": "Application\\DTOs\\ItemExceptionDataContract.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T11:59:34.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExceptionManagerController.cs",
+              "DocumentMoniker": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Controllers\\ExceptionManagerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExceptionManagerController.cs",
+              "ToolTip": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Controllers\\ExceptionManagerController.cs",
+              "RelativeToolTip": "Controllers\\ExceptionManagerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T06:55:17.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExceptionDto.cs",
+              "DocumentMoniker": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\DTOs\\ExceptionDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ExceptionDto.cs",
+              "ToolTip": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\DTOs\\ExceptionDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\ExceptionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T07:34:14.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAACAAAAAAAAAAAAAcwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-03T07:24:49.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GlobalHandler.cs",
+              "DocumentMoniker": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\Services\\GlobalHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\GlobalHandler.cs",
+              "ToolTip": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\Services\\GlobalHandler.cs",
+              "RelativeToolTip": "Application\\Services\\GlobalHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAApwBEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T07:11:39.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-03T07:18:10.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EntLibWrapper.cs",
+              "DocumentMoniker": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\Services\\EntLibWrapper.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\EntLibWrapper.cs",
+              "ToolTip": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\Services\\EntLibWrapper.cs",
+              "RelativeToolTip": "Application\\Services\\EntLibWrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T07:12:29.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PathwayException.cs",
+              "DocumentMoniker": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\Services\\PathwayException.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\PathwayException.cs",
+              "ToolTip": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\Services\\PathwayException.cs",
+              "RelativeToolTip": "Application\\Services\\PathwayException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T06:54:27.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IServiceExceptionManager.cs",
+              "DocumentMoniker": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\Interfaces\\IServiceExceptionManager.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IServiceExceptionManager.cs",
+              "ToolTip": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\Interfaces\\IServiceExceptionManager.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IServiceExceptionManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T06:48:06.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ServiceExceptionManager.cs",
+              "DocumentMoniker": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\Services\\ServiceExceptionManager.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ServiceExceptionManager.cs",
+              "ToolTip": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\Services\\ServiceExceptionManager.cs",
+              "RelativeToolTip": "Application\\Services\\ServiceExceptionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T06:48:04.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BasicFaultContract.cs",
+              "DocumentMoniker": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\DTOs\\BasicFaultContract.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\BasicFaultContract.cs",
+              "ToolTip": "C:\\projects\\Project Migration\\MigratedWebAPI\\SynergyApplicationFrameworkApi\\Application\\DTOs\\BasicFaultContract.cs",
+              "RelativeToolTip": "Application\\DTOs\\BasicFaultContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T05:27:38.075Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
