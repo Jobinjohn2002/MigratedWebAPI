@@ -124,7 +124,52 @@ ENV AppSettings__Synergy__Core__ErrorLogging=true
 ENV AppSettings__GhostScriptPath=/usr/bin/gs
 
 # Copy published artefacts from the publish stage
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  ⚠  ACTION REQUIRED – URL BINDING IN Program.cs
+#
+#  The current Program.cs contains:
+#      app.Urls.Clear();
+#      app.Urls.Add("http://localhost:5055");
+#
+#  Those two lines override ASPNETCORE_URLS and bind the application to the
+#  loopback interface only, which makes the container unreachable from outside.
+#
+#  Before deploying to AWS, replace those lines with environment-variable-driven
+#  binding so the container respects the values set below:
+#
+#      // Remove or conditionally guard the hard-coded URL, e.g.:
+#      if (!app.Environment.IsProduction())
+#      {
+#          app.Urls.Clear();
+#          app.Urls.Add("http://localhost:5055");
+#      }
+#
+#  The ASPNETCORE_URLS env var below will then take effect in production.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ASP.NET Core URL bindings (effective once Program.cs is updated – see above)
+ENV ASPNETCORE_URLS=http://+:8080
+ENV ASPNETCORE_HTTP_PORTS=8080
+ENV ASPNETCORE_HTTPS_PORTS=8081
+
+# Runtime flags
+ENV DOTNET_RUNNING_IN_CONTAINER=true
+ENV ASPNETCORE_ENVIRONMENT=Production
+
+# ─── Redirect Windows-specific AppSettings paths to container equivalents ─────
+# Overrides appsettings.json values; can also be supplied at runtime via
+# ECS task-definition environment variables or AWS Parameter Store / Secrets.
+ENV AppSettings__Synergy__Core__ErrorPath=/app/logs/
+ENV AppSettings__Synergy__Core__ErrorLogging=true
+ENV AppSettings__GhostScriptPath=/usr/bin/gs
+
+# Copy published artefacts from the publish stage
 COPY --from=publish /app/publish .
+
+# Run as the non-root 'app' user that ships with the official aspnet image
+USER app
+
 
 # Run as the non-root 'app' user that ships with the official aspnet image
 USER app
