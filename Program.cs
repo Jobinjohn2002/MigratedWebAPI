@@ -75,10 +75,10 @@ try
     var app = builder.Build();
 
     // ----------------------------
-    // Bind to all interfaces on port 80 (required for ECS/ALB)
+    // Bind to all interfaces on port 8080 (port 80 requires root on Linux)
     // ----------------------------
     app.Urls.Clear();
-    app.Urls.Add("http://+:80");
+    app.Urls.Add("http://+:8080");
 
     // Enable Swagger if in Development
     if (app.Environment.IsDevelopment())
