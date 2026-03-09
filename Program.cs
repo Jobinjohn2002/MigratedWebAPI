@@ -12,7 +12,7 @@ try
     // ----------------------------
     // Setup Serilog early
     // ----------------------------
-    var logPath = @"C:\log";
+    var logPath = "/tmp/logs";
     if (!Directory.Exists(logPath))
     {
         Directory.CreateDirectory(logPath);
@@ -75,10 +75,10 @@ try
     var app = builder.Build();
 
     // ----------------------------
-    // Force HTTP for development/testing
+    // Bind to all interfaces on port 80 (required for ECS/ALB)
     // ----------------------------
     app.Urls.Clear();
-    app.Urls.Add("http://localhost:5055");
+    app.Urls.Add("http://+:80");
 
     // Enable Swagger if in Development
     if (app.Environment.IsDevelopment())
