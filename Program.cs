@@ -80,18 +80,25 @@ try
     app.Urls.Clear();
     app.Urls.Add("http://+:8080");
 
-    // Enable Swagger if in Development
-    if (app.Environment.IsDevelopment())
+    // Always enable Swagger (required for all environments when running in containers)
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
     {
-        app.UseSwagger();
-        app.UseSwaggerUI();
-    }
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Synergy API v1");
+        c.RoutePrefix = "swagger";
+    });
 
     // Optional: comment out HTTPS redirection for HTTP testing
     // app.UseHttpsRedirection();
 
     app.UseAuthorization();
     app.MapControllers();
+
+    // Health check endpoint for ALB target group health checks
+    app.MapGet("/health", () => Results.Ok(new { status = "healthy", timestamp = DateTime.UtcNow }));
+
+    // Redirect root to Swagger UI
+    app.MapGet("/", () => Results.Redirect("/swagger"));
 
     Log.Information("SynergyApplicationFrameworkApi started successfully.");
     app.Run();
