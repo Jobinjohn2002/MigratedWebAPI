@@ -87,8 +87,8 @@ resource "aws_ecs_task_definition" "webapp" {
   family                   = "webapp"
   requires_compatibilities = ["FARGATE"]
   network_mode             = "awsvpc"
-  cpu                      = "512"
-  memory                   = "1024"
+  cpu                      = "4096"
+  memory                   = "8192"
   execution_role_arn       = aws_iam_role.ecs_task_execution_role.arn
 
   container_definitions = jsonencode([
@@ -101,6 +101,16 @@ resource "aws_ecs_task_definition" "webapp" {
             hostPort      = 80
         }
       ]
+       # updated from here for cloudwatch logs     
+      logConfiguration = {
+        logDriver = "awslogs"
+
+        options = {
+          awslogs-group         = aws_cloudwatch_log_group.ecs_logs.name
+          awslogs-region        = "ap-southeast-1"
+          awslogs-stream-prefix = "ecs"
+        }
+      }
     }
   ])
 }
@@ -134,4 +144,10 @@ resource "aws_ecr_repository" "dev_repo" {
   image_scanning_configuration {
     scan_on_push = true
   }
+}
+
+# creating cloudwatch logs
+resource "aws_cloudwatch_log_group" "ecs_logs" {
+  name              = "/ecs/api"
+  retention_in_days = 7
 }
